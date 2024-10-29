@@ -13,8 +13,8 @@ dependencyResolutionManagement {
     }
 
     versionCatalogs {
-        create("libs") {
-            val wrappersVersion = extra["kotlin.wrappers.version"]
+        create("kotlinWrappers") {
+            val wrappersVersion = extra["kotlin.wrappers.version"] as String
             from("org.jetbrains.kotlin-wrappers:kotlin-wrappers-catalog:$wrappersVersion")
         }
     }
