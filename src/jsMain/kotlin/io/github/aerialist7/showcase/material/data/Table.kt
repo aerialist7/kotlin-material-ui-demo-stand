@@ -1,6 +1,5 @@
 package io.github.aerialist7.showcase.material.data
 
-import `<dynamic>`.get
 import js.objects.jso
 import mui.material.*
 import mui.material.DividerVariant.Companion.fullWidth
