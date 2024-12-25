@@ -1,6 +1,5 @@
 package io.github.aerialist7.showcase.material.inputs
 
-import io.github.aerialist7.ariaLabel
 import mui.icons.material.VolumeDown
 import mui.icons.material.VolumeUp
 import mui.material.Slider

@@ -1,4 +1,6 @@
 import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
+import org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootPlugin
+import org.jetbrains.kotlin.gradle.targets.js.npm.NpmExtension
 
 plugins {
     kotlin("multiplatform")
@@ -24,10 +26,10 @@ kotlin {
                 implementation(kotlinWrappers.emotion)
                 implementation(kotlinWrappers.mui.material)
                 implementation(kotlinWrappers.mui.iconsMaterial)
-                implementation(kotlinWrappers.muix.datePickers)
-
-                implementation(npm("date-fns", "2.30.0"))
-                implementation(npm("@date-io/date-fns", "2.17.0"))
+//                implementation(kotlinWrappers.muix.datePickers)
+//
+//                implementation(npm("date-fns", "2.30.0"))
+//                implementation(npm("@date-io/date-fns", "2.17.0"))
             }
         }
     }
@@ -36,6 +38,13 @@ kotlin {
 tasks.withType<KotlinJsCompile>().configureEach {
     compilerOptions {
         target.set("es2015")
+    }
+}
+
+plugins.withType<NodeJsRootPlugin> {
+    the<NpmExtension>().apply {
+        override("react", "^19.0.0")
+        override("react-dom", "^19.0.0")
     }
 }
 

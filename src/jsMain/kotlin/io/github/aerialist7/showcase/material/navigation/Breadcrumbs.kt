@@ -7,7 +7,6 @@ import mui.material.LinkUnderline
 import mui.material.Typography
 import react.FC
 import react.Props
-import react.dom.aria.ariaLabel
 
 val BreadcrumbsShowcase = FC<Props> {
     Breadcrumbs {

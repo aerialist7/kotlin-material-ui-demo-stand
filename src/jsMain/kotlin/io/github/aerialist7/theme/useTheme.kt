@@ -7,7 +7,7 @@ val ThemeContext: RequiredContext<StateInstance<Theme>> =
     createRequiredContext()
 
 fun useTheme(): Theme =
-    useRequiredContext(ThemeContext).component1()
+    useRequired(ThemeContext).component1()
 
 fun useSetTheme(): StateSetter<Theme> =
-    useRequiredContext(ThemeContext).component2()
+    useRequired(ThemeContext).component2()

@@ -49,7 +49,8 @@ val Sidebar = FC<Props> {
                     left = 16.px
                 }
 
-                ariaLabel = "Menu"
+                // TODO: Check without dynamic after override removal in MUI wrappers
+                asDynamic().ariaLabel = "Menu"
 
                 icon = MenuIcon.create()
                 onClick = { isOpen = true }

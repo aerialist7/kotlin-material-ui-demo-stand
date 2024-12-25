@@ -8,7 +8,6 @@ import mui.material.ListItemText
 import react.FC
 import react.Props
 import react.ReactNode
-import react.dom.aria.ariaLabel
 import react.dom.html.ReactHTML
 
 val DividerShowcase = FC<Props> {

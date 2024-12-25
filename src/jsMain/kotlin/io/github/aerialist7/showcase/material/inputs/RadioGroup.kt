@@ -5,7 +5,6 @@ import react.FC
 import react.Props
 import react.ReactNode
 import react.create
-import react.dom.aria.ariaLabel
 import react.dom.html.ReactHTML.fieldset
 
 val RadioGroupShowcase = FC<Props> {

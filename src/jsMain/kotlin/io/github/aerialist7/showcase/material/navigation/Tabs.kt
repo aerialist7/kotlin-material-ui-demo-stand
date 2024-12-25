@@ -1,6 +1,5 @@
 package io.github.aerialist7.showcase.material.navigation
 
-import io.github.aerialist7.ariaLabel
 import mui.material.Box
 import mui.material.Tab
 import mui.material.Tabs

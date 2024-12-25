@@ -8,8 +8,6 @@ import mui.material.styles.TypographyVariant
 import mui.system.sx
 import react.FC
 import react.Props
-import react.dom.aria.ariaDescribedBy
-import react.dom.aria.ariaLabelledBy
 import react.dom.html.ReactHTML
 import react.dom.html.ReactHTML.div
 import react.useState

@@ -1,5 +1,6 @@
 package io.github.aerialist7.showcase.material.data
 
+import `<dynamic>`.get
 import js.objects.jso
 import mui.material.*
 import mui.material.DividerVariant.Companion.fullWidth
@@ -9,7 +10,6 @@ import react.Props
 import react.ReactNode
 import react.create
 import react.dom.aria.AriaRole
-import react.dom.aria.ariaLabel
 import react.dom.html.ReactHTML.th
 import web.cssom.Length
 import web.cssom.pct

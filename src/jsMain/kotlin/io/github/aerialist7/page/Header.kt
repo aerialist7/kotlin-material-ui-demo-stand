@@ -16,8 +16,6 @@ import react.FC
 import react.ReactNode
 import react.create
 import react.dom.aria.AriaHasPopup.Companion.`false`
-import react.dom.aria.ariaHasPopup
-import react.dom.aria.ariaLabel
 import react.dom.html.ReactHTML
 import web.cssom.integer
 import web.cssom.number

@@ -8,7 +8,6 @@ import mui.material.Typography
 import react.FC
 import react.Props
 import react.create
-import react.dom.aria.ariaControls
 
 val AccordionShowcase = FC<Props> {
     Accordion {

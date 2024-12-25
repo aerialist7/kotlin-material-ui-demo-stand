@@ -8,7 +8,6 @@ import mui.material.ToggleButton
 import mui.material.ToggleButtonGroup
 import react.FC
 import react.Props
-import react.dom.aria.ariaLabel
 import react.useState
 
 val ToggleButtonShowcase = FC<Props> {

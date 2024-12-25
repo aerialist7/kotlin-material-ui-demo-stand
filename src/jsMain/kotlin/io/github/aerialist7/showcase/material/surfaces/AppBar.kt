@@ -6,7 +6,6 @@ import mui.material.styles.TypographyVariant.Companion.h6
 import mui.system.sx
 import react.FC
 import react.Props
-import react.dom.aria.ariaLabel
 import react.dom.html.ReactHTML.div
 import web.cssom.number
 import web.cssom.px

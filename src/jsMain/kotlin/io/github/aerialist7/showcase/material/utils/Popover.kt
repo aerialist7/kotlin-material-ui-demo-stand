@@ -8,7 +8,6 @@ import mui.material.Typography
 import mui.system.sx
 import react.FC
 import react.Props
-import react.dom.aria.ariaDescribedBy
 import react.useState
 import web.cssom.px
 import web.dom.Element

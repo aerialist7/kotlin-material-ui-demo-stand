@@ -5,7 +5,6 @@ import mui.material.ButtonGroup
 import mui.material.ButtonGroupVariant
 import react.FC
 import react.Props
-import react.dom.aria.ariaLabel
 
 val ButtonGroupShowcase = FC<Props> {
     ButtonGroup {
